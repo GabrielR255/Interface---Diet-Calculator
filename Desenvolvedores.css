@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;   
+    background: linear-gradient(100deg, #1d1d1d, rgb(14, 14, 14));
+    max-width: 100vw; /* Limita a largura do corpo ao tamanho total da janela de visualização */
+    overflow-x: hidden; /* Evita a rolagem horizontal */
+}
+
+header{
+    background-color:  rgba(1, 0, 51, 0.3);
+    box-shadow: 4px 4px 4px black;
+    padding: 40px;
+}
+
+.img-home img{
+    width: 42vw;
+    margin-left: 55px;
+}
+
+
+nav li{
+display: inline-block;
+}
+
+.Logo img{
+    width: 20vh;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+nav li a:hover{
+background-color:#ffaf01f5 ;
+}
+
+.div-list{
+    margin-left: 165px;
+    margin-top: -75px;
+}
+
+
+.dropdowncalc{
+    position: absolute;
+    box-shadow: 4px 4px 4px black;
+    display: none;
+
+}
+
+.dropdowncalc a{
+    display: block;
+}
+
+.Calculadora:hover .dropdowncalc{
+    display: block;
+    background-color:  rgba(0, 0, 0, 0.6);
+
+}
+
+
+.dropdownmacro{
+    position: absolute;
+    box-shadow: 4px 4px 4px black;
+    display: none;
+}
+
+.dropdownmacro a{
+    display: block; 
+}
+
+.Macronutriente:hover .dropdownmacro{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;   
+    background: linear-gradient(100deg, #1d1d1d, rgb(14, 14, 14));
+    max-width: 100vw; /* Limita a largura do corpo ao tamanho total da janela de visualização */
+    overflow-x: hidden; /* Evita a rolagem horizontal */
+}
+
+header{
+    background-color:  rgba(1, 0, 51, 0.3);
+    box-shadow: 4px 4px 4px black;
+    padding: 40px;
+}
+
+.img-home img{
+    width: 42vw;
+    margin-left: 55px;
+}
+
+
+nav li{
+display: inline-block;
+}
+
+.Logo img{
+    width: 20vh;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+nav li a:hover{
+background-color:#ffaf01f5 ;
+}
+
+.div-list{
+    margin-left: 165px;
+    margin-top: -75px;
+}
+
+
+.dropdowncalc{
+    position: absolute;
+    box-shadow: 4px 4px 4px black;
+    display: none;
+
+}
+
+.dropdowncalc a{
+    display: block;
+}
+
+.Calculadora:hover .dropdowncalc{
+    display: block;
+    background-color:  rgba(0, 0, 0, 0.6);
+
+}
+
+
+.dropdownmacro{
+    position: absolute;
+    box-shadow: 4px 4px 4px black;
+    display: none;
+}
+
+.dropdownmacro a{
+    display: block; 
+}
+
+.Macronutriente:hover .dropdownmacro{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rodapebox{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(1, 0, 51, 0.3);
+    margin-top: 100px
+    
+}
+
+
+.rodapebox a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+margin-top: 15px;
+
+}
+
+.colum01{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.colum01 a:hover{
+ color: #ffaf01f5;
+}
+
+
+.colum02{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.colum02 a:hover{
+ color: #ffaf01f5;
+}
+
+
+.colum03{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.colum03 a:hover{
+ color: #ffaf01f5;
+}
+
+
+
+.rodapestop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: rgba(1, 0, 51, 0.3); 
+ 
+}
+
+.rodapestop a{
+display: flex;
+    height: 5vh;
+    text-decoration: none;
+ 
+    color: rgb(194, 194, 194);
+    border-top: 2px solid rgb(255, 167, 3);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+height: 10vh;  
+margin-top: 40px;
+
+
+
+}
+
+.blockcont{
+    display: flex;
+    margin-left: 30px;
+    color: white;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+.tittle h1{
+    font-weight: 400;
+}
